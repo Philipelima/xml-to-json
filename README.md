@@ -17,3 +17,6 @@ So you can import it on your code
 ```go
     import "github.com/philipelima/xml-to-json"
 ```
+
+
+After importing the package, let's define the structure that we will use from the xml that we will work with, we can do this with a struct.
