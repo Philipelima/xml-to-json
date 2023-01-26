@@ -40,3 +40,36 @@ After importing the package, let's define how we want to read the xml that we ar
 	    Body      string    `xml:"body"    json:"note_body"`
     }
 ```
+
+Inside your function, let's create a <code>Notes</code> reference
+
+```go
+    notes := &Notes{}
+```
+
+After that, we can call the function responsible for the conversion, passing the xml file path and the reference we created and finally get the json:
+
+```go
+    json := xmltojson.JsonFromXml("path/to/xml/file", notes)
+```
+
+The final code is similar to this:
+
+```go
+
+    type Notes struct {
+	    To        string    `xml:"to"      json:"to"`; 
+	    From      string    `xml:"from"    json:"from"`
+	    Heading   string    `xml:"heading" json:"heading"`
+	    Body      string    `xml:"body"    json:"note_body"`
+    }
+
+    func ConvertFunction() string {
+
+        notes := &Notes{}
+        
+        json  := xmltojson.JsonFromXml("path/to/xml/file", notes)
+
+        return json
+    }
+```
