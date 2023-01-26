@@ -1,9 +1,9 @@
 # xml-to-json converter
 
 ![go](https://img.shields.io/static/v1?label=Golang&labelColor=07a0f8&message=1.19.5&color=000000&logo=go&logoColor=ffffff&style=flat-square)
-<center>
+<p align="center">
 <img src="https://storage.googleapis.com/gopherizeme.appspot.com/gophers/4c14a00f0a14e373b7f4d0639a02477403fb9df8.png" height=100>
-</center>
+</p>
 
 <br>
 
