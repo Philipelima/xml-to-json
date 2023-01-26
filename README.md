@@ -19,4 +19,4 @@ So you can import it on your code
 ```
 
 
-After importing the package, let's define the structure that we will use from the xml that we will work with, we can do this with a struct.
+After importing the package, let's define how we want to read the xml that we are going to work with and how we want it to appear as json, we can do this from a single struct
